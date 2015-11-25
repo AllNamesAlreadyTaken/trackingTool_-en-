@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	Some stuff here
+</body>
+
+<div class="container">
+<form>
+	<h1>Form Values</h1>
+	<input type="text" width="100px" placeholder="name" id="name"></input>
+	<button click="javascript:submit(values)">Submit</button>
+</form>
+</div>
+<script>
+
+/*Needing to set form values and pass in on click*/
+
+    var values = function(){
+
+    }
+    var submit = function(){
+	var nameValue = document.getElementById("name").getInnerHTML();
+	alert(nameValue);
+	};
+</script>
+</html>
